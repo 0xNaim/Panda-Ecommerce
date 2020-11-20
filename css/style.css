@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	margin-bottom: 80px;
+}
+.pink-bg {
+	background-color: #fceae8;
+	border-radius: 8px;
+}
+.carousel-item {
+	padding: 20px 40px;
+}
+.tv {
+	font-weight: 700;
+}
+.price {
+	color: #ff136f;
+	font-weight: 700;
+}
+.buy-now {
+	background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
+	color: #ffffff;
+	border: none;
+	outline: none !important;
+	border-radius: 8px;
+	padding: 10px 25px;
+	cursor: pointer;
+}
+.watch-bg {
+	background-image: linear-gradient(to left, #e295099e 0%, orange 100%);
+}
+.bag-bg {
+	background-image: linear-gradient(to left, #ca145b8a 0%, #ff136f 100%);
+}
+.shoes-bg {
+	background-image: linear-gradient(to left, #2d2d9ca1 0%, #2020c1 100%);
+}
+.watch-bg,
+.bag-bg,
+.shoes-bg {
+	font-weight: 700;
+	padding: 10px 30px;
+	border-radius: 8px;
+}
+.categories h1 {
+	color: #ffffff;
+}
+.categories img {
+	width: 100px;
+}
+.shoes,
+.backpack {
+	border: none;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px lightgray;
+}
+.subscribe{
+	height: 300px;
+	border-radius: 10px;
+}
+.subscribe .send{
+	color: #ffffff;
+	background-color: #ff136f;
+	border: none;
+	outline: none;
+	padding: 5px 20px;
+	border-radius: 5px;
+	margin-left: -3px;
+}
+.subscribe h6{
+	color: gray;
+}
+.subscribe input{
+	width: 210px;
+	height: 35px;
+	padding: 0px 5px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+.subscribe input::placeholder{
+	font-size: 14px;
+}
+.subscribe input:focus{
+	color: #ff136f;
+}
+#footer{
+	text-align: center;
+}
